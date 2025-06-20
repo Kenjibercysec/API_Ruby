@@ -49,7 +49,7 @@ cp .env.example .env
 Edite `.env` com suas credenciais
 
 Inicie os serviços:
-
+```
 # Terminal 1 - Servidor
 rails server
 
@@ -58,6 +58,7 @@ redis-server
 
 # Terminal 3 - Sidekiq
 bundle exec sidekiq
+```
 
 ## 🐳 Docker
 ```docker-compose up --build```
@@ -69,18 +70,18 @@ bundle exec sidekiq
 
 ## Testes
 
-```bash
-bundle exec rspec
+```bundle exec rspec```
 
-Monitoramento
-
-    Painel Sidekiq: /sidekiq
+## Monitoramento
+```
+   Painel Sidekiq: /sidekiq
 
     Health Check: /api/v1/health
+```
 
-Contribuição
+## Contribuição
 
-    Faça fork do projeto
+    ```Faça fork do projeto
 
     Crie sua branch (git checkout -b feature/foo)
 
@@ -89,8 +90,11 @@ Contribuição
     Push para a branch (git push origin feature/foo)
 
     Abra um Pull Request
-```
-Licença
+    ```
+    
+
+
+## Licença
 
 MIT © [Seu Nome]
 text
