@@ -1,0 +1,81 @@
+# See https://help.github.com/articles/ignoring-files for more about ignoring files.
+
+### Rails ###
+*.rbc
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/
+!/tmp/storage/.keep
+/public/assets
+.byebug_history
+
+# Ignore master key for decrypting credentials
+/config/master.key
+/config/credentials/*.key
+
+### Environment ###
+.env*
+.env.local
+.env.development
+.env.test
+.env.production
+.envrc
+.overmind.env
+
+### Database ###
+*.sqlite3
+*.sqlite3-*
+/db/*.sqlite3
+/db/schema_cache
+
+### Redis/Sidekiq ###
+redis-data/
+*.rdb
+*.aof
+
+### Test coverage ###
+/coverage/
+
+### IDE/Editor ###
+# VSCode
+.vscode/
+.idea/
+
+# RubyMine
+*.swp
+*.swo
+
+### macOS ###
+.DS_Store
+
+### Documentation ###
+.yardoc/
+doc/
+
+### Build artifacts ###
+/node_modules/
+/yarn-error.log
+/public/packs
+/public/packs-test
+/public/vite
+
+### System ###
+.direnv/
+
+### Logs ###
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### Temp ###
+*.swp
+*.swo
+*~
