@@ -1,4 +1,4 @@
-cat << 'EOF' > README.md
+
 # 🚀 API Foda - Rails API Boilerplate
 
 <div align="center">
