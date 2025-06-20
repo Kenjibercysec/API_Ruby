@@ -50,13 +50,13 @@ Edite `.env` com suas credenciais
 
 Inicie os serviços:
 
-# Terminal 1 - Servidor
+ **Terminal 1 - Servidor
 ```rails server```
 
-# Terminal 2 - Redis
+ **Terminal 2 - Redis
 ```redis-server```
 
-# Terminal 3 - Sidekiq
+ **Terminal 3 - Sidekiq
 ```bundle exec sidekiq```
 
 
