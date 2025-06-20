@@ -50,7 +50,6 @@ Edite `.env` com suas credenciais
 
 Inicie os serviços:
 
-```bash
 # Terminal 1 - Servidor
 rails server
 
@@ -90,7 +89,7 @@ Contribuição
     Push para a branch (git push origin feature/foo)
 
     Abra um Pull Request
-
+```
 Licença
 
 MIT © [Seu Nome]
