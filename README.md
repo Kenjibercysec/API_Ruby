@@ -38,7 +38,6 @@
 | Testes           | RSpec               |
 
 ## 🚀 Começando
-```bash
 git clone https://github.com/seu-usuario/api-foda.git
 cd api-foda
 bundle install
